@@ -60,4 +60,4 @@ $$
   \frac{\partial H}{\partial q} &= -\dot{p}
 $$
 
-These are Hamilton's Equations, equivalent to Lagrange's equations and Newton's Laws for mechanics, and the variable transform $H = p\dot{q} - L$ and the following steps are what's called the Legendre transform. 
+These are Hamilton's Equations, equivalent to Lagrange's equations and Newton's Laws for mechanics, and the variable transform $$H = p\dot{q} - L$$ and the following steps are what's called the Legendre transform. 
