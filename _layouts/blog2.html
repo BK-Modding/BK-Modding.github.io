@@ -8,8 +8,6 @@ layout: default
 
 <div class="posts">
   {% for post in paginator.posts %}
-    {{ post.publishing }}
-    {%- if post.publishing == 'blog2' -%}
       <section class="post-entry">
         <h2 class="post-title">
           <a href="{{ post.url | relative_url }}">
@@ -29,7 +27,6 @@ layout: default
 
         <p>{{ post.excerpt | strip_html }}</p>
       </section>
-    {%- endif -%}
 
   {% endfor %}
   
