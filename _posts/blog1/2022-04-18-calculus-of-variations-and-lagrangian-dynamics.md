@@ -7,6 +7,7 @@ tags: [calculus-of-variations, lagrangian-dynamics, classical-mechanics, mechani
 toc:  true
 publishing: blog1
 usemathjax: true
+math: true
 ---
 
 Consider $ L(q, \dot{q}) $
