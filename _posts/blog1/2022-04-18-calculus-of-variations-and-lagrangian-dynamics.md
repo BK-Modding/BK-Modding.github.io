@@ -10,7 +10,7 @@ usemathjax: true
 math: true
 ---
 
-Consider $ L(q, \dot{q}) $
+Consider $$ L(q, \dot{q}) $$
 
 Then,
 
@@ -18,7 +18,7 @@ $$
     dL = \frac{\partial L}{ \partial q} dq + \frac{\partial L}{\partial \dot{q}} d\dot(q)
 $$
 
-Define quantities $ p, \dot(p) $ such that, 
+Define quantities $$ p, \dot{p} $$ such that, 
 
 $$ \frac{\partial L}{\partial q}  = \dot{p} \\
   \frac{\partial L}{\partial \dot{q}} = p
