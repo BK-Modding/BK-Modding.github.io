@@ -15,28 +15,28 @@ Consider $$ L(q, \dot{q}) $$
 Then,
 
 $$
-    dL = \frac{\partial L}{ \partial q} dq + \frac{\partial L}{\partial \dot{q}} d\dot{q}
+    dL &= \frac{\partial L}{ \partial q} dq + \frac{\partial L}{\partial \dot{q}} d\dot{q}
 $$
 
 Define quantities $$ p, \dot{p} $$ such that, 
 
-$$ \frac{\partial L}{\partial q}  = \dot{p} \\
-  \frac{\partial L}{\partial \dot{q}} = p
+$$ \frac{\partial L}{\partial q}  &= \dot{p} \\
+  \frac{\partial L}{\partial \dot{q}} &= p
 $$
 
 Thus,
 
-$$ dL = \dot{p} dq + p d\dot{q} $$
+$$ dL &= \dot{p} dq + p d\dot{q} $$
 
 Now, we define a quantity $$ H $$ as,
 
-$$ H = p\dot{q} - L $$
+$$ H &= p\dot{q} - L $$
 
 And observe that the differential of this quantity is,
 
-$$ dH = p d\dot{q} + \dot{q}dp - dL \\ 
-  dH = p d\dot{q} + \dot{q} dp - \dot{p} dq - p d\dot{q} \\
-  dH = \dot{q} dp - \dot{p} dq
+$$ dH &= p d\dot{q} + \dot{q}dp - dL \\ 
+  dH &= p d\dot{q} + \dot{q} dp - \dot{p} dq - p d\dot{q} \\
+  dH &= \dot{q} dp - \dot{p} dq
 $$
 
 If the differential of this quantity $$H$$ is written in terms of the differentials $$dp, dq$$, then it must be that $$H$$ is a function of $$p$$ and $$q$$, i.e., $$H = H(p, q)$$.
@@ -44,20 +44,20 @@ If the differential of this quantity $$H$$ is written in terms of the differenti
 Taking the differential of $$H = H(p, q)$$ now, we observe that,
 
 $$
-  dH = \frac{\partial H}{\partial p}dp + \frac{\partial H}{\partial q}dq
+  dH &= \frac{\partial H}{\partial p}dp + \frac{\partial H}{\partial q}dq
 $$
 
 Comparing this with the expression for the differential we obtained before,
 
 $$
-  \frac{\partial H}{\partial p}dp + \frac{\partial H}{\partial q}dq = \dot{q} dp - \dot{p} dq
+  \frac{\partial H}{\partial p}dp + \frac{\partial H}{\partial q}dq &= \dot{q} dp - \dot{p} dq
 $$
 
 Which implies that,
 
 $$
-  \frac{\partial H}{\partial p} = \dot{q} \\
-  \frac{\partial H}{\partial q} = -\dot{p}
+  \frac{\partial H}{\partial p} &= \dot{q} \\
+  \frac{\partial H}{\partial q} &= -\dot{p}
 $$
 
 These are Hamilton's Equations, equivalent to Lagrange's equations and Newton's Laws for mechanics, and the variable transform $H = p\dot{q} - L$ and the following steps are what's called the Legendre transform. 
