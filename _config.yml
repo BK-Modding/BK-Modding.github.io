@@ -1,7 +1,7 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
+title: Baalateja Kataru
+description: Welcome to my expanding universe!
+url: https://bk-modding.github.io
 avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
@@ -29,14 +29,14 @@ exclude:
 
 # Optimize Jekyl SEO Tag
 twitter:
-  username: vszhub
+  username: bkmodding
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: Baalateja Kataru
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://twitter.com/bkmodding
+    - https://github.com/BK-Modding
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Baalateja Kataru
+  url: https://github.com/BK-Modding
+  email: kavesbteja@gmail.com
