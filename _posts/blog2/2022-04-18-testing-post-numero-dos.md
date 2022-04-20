@@ -1,14 +1,14 @@
 ---
 layout: post
-title: This is a test post in Phys Blog
-date: 2022-04-20 23:18 +0800
-last_modified_at: 2022-04-20 01:08:25 +0800
+title: This is a test post in CS Blog
+date: 2022-04-18 23:18 +0800
+last_modified_at: 2022-04-18 01:08:25 +0800
 tags: [jekyll theme, jekyll, tutorial]
 toc:  true
-category: blog1
+publishing: blog2
 ---
 
-# PHYSICS SCRIBBLES
+# COMPUTER BLOG BLA BLA
 
 Welcome to **Not Pure Poole**! This is an example post to show the layout.
 {: .message }
