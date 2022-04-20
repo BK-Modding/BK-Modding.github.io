@@ -1,6 +1,10 @@
-# Not Pure Poole <!-- omit in toc -->
+# Personal Website and Blogs <!-- omit in toc -->
 
 **Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
+
+Repository for my Personal Website and Blogs. 
+
+Physics Scribbles, Syntax Error, and Eigen World are hosted here.
 
 -----
 
