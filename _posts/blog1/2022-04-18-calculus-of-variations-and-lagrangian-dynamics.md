@@ -3,16 +3,19 @@ layout: post
 title: A Crash Course into Calculus of Variations and Lagrangian Dynamics
 date: 2022-04-18 23:18 +0800
 last_modified_at: 2022-04-18 01:08:25 +0800
-tags: [calculus-of-variations, lagrangian-dynamics, classical-mechanics, mechanics, analytical-mechanics, lagrangians, hamiltonians]
+tags: [calculus-of-variations, lagrangian-dynamics, classical-mechanics, mechanics, analytical-mechanics]
 toc:  true
 publishing: blog1
 usemathjax: true
-math: true
 ---
+
+There is a unique propery of the universe that we don't observe 
 
 Consider $$ L(q, \dot{q}) $$
 
-Then,
+
+
+The differential of the Lagrangian is,
 
 $$
     dL = \frac{\partial L}{ \partial q} dq + \frac{\partial L}{\partial \dot{q}} d\dot{q}
