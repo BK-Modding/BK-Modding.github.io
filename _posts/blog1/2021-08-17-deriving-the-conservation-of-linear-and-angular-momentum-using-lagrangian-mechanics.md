@@ -11,9 +11,9 @@ usemathjax: true
 
 Linear and angular momentum are always conserved, but can we use something like Lagrangian Mechanics to derive that result?
 
-| ![A spinning top, a very interesting object of study for physicists. Momentum conservation can be derived by analyzing its behavior. (Credit: https://wallpaperscraft.com/)]({{site.url}}/media/deriving_conservation_of_momentum/top.jpg) | 
+| ![A spinning top, a very interesting object of study for physicists. Momentum conservation can be derived by analyzing its behavior. (Credit: [](https://wallpaperscraft.com/)}]({{site.url}}/media/deriving_conservation_of_momentum/top.jpg) | 
 |:--:| 
-| A spinning top, a very interesting object of study for physicists. Momentum conservation can be derived by analyzing its behavior. (Credit: https://wallpaperscraft.com/) |
+| A spinning top, a very interesting object of study for physicists. Momentum conservation can be derived by analyzing its behavior. (Credit: [](https://wallpaperscraft.com/)) |
 
 # Post Details
 
