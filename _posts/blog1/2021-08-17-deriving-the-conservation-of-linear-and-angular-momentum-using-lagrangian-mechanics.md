@@ -11,7 +11,7 @@ usemathjax: true
 
 Linear and angular momentum are always conserved, but can we use something like Lagrangian Mechanics to derive that result?
 
-| ![A spinning top, a very interesting object of study for physicists. Momentum conservation can be derived by analyzing its behavior. (Credit: https://wallpaperscraft.com/)](../../media/deriving-conservation-of-momentum/top.jpg) | 
+| ![A spinning top, a very interesting object of study for physicists. Momentum conservation can be derived by analyzing its behavior. (Credit: https://wallpaperscraft.com/)](../../media/deriving_conservation_of_momentum/top.jpg) | 
 |:--:| 
 | A spinning top, a very interesting object of study for physicists. Momentum conservation can be derived by analyzing its behavior. (Credit: https://wallpaperscraft.com/) |
 
@@ -78,7 +78,7 @@ We begin by looking at a classic and simple physical system - a rolling ball
 
 The system is as follows: a ball at rest is subjected to a force initially that causes it to roll smoothly along a frictionless surface:
 
-![Rolling Ball at constant velocity](../../media/deriving-conservation-of-momentum/rollingball.png)
+![Rolling Ball at constant velocity](../../media/deriving_conservation_of_momentum/rollingball.png)
 
 The Lagrangian for the ball's motion can then be written in terms of its classical kinetic energy and the potential energy:
 
@@ -159,7 +159,7 @@ Linear momentum was cute and simple, let's amp it up a notch. Let's try to see i
 
 The system is as follows: a particle at rest is subjected to a torque which causes it to orbit around a point in space with a velocity as follows:
 
-![Orbiting Ball at Constant Speed](../../media/deriving-conservation-of-momentum/circularmotion.png)
+![Orbiting Ball at Constant Speed](../../media/deriving_conservation_of_momentum/circularmotion.png)
 
 A circle is two-dimensional, so we can no longer operate in just the one-dimensional $$ x $$ coordinate for our physical quantities. We have to work in two dimensions.
 
@@ -199,7 +199,7 @@ $$
   \begin{align*}
     \dot{x}^2 &= \dot{r}^2 \cos^2 \theta + r^2 \dot{\theta}^2 \sin^2 \theta - 2 r \dot{r} \dot{\theta} \cos \theta \sin \theta \\
     \dot{y}^2 &= \dot{r}^2 \sin^2 \theta + r^2 \dot{\theta}^2 \cos^2 \theta + 2 r \dot{r} \dot{\theta} \cos \theta \sin \theta \\
-    \hrule \\
+    \hline \\
     \dot{x}^2 + \dot{y}^2 &= \dot{r}^2 \cos^2 \theta + \dot{r}^2 \sin^2 \theta + r^2 \dot{\theta}^2 \sin^2 \theta + r^2 \dot{\theta}^2 \cos^2 \theta
   \end{align*}
 $$
@@ -303,10 +303,13 @@ In summary, this is a classic derivation of one of the many important conservati
 
 Thank you for reading! You can also find me at other places like Quora, Medium, and GitHub:
 
-https://www.quora.com/profile/Baalateja-Kataru
-https://physicsscribbles.quora.com/
-https://medium.com/physics-scribbles
-https://github.com/BK-Modding
+[Quora Profile](https://www.quora.com/profile/Baalateja-Kataru)
+
+[Ouora Physics Scribbles](https://physicsscribbles.quora.com/)
+
+[Medium Physics Scribbles](https://medium.com/physics-scribbles)
+
+[Github](https://github.com/BK-Modding)
 
 
 
