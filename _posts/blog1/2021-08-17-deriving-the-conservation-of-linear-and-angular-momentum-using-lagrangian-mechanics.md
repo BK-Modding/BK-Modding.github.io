@@ -78,7 +78,7 @@ We begin by looking at a classic and simple physical system - a rolling ball
 
 The system is as follows: a ball at rest is subjected to a force initially that causes it to roll smoothly along a frictionless surface:
 
-![Rolling Ball at constant velocity]({{site.url}}/media/deriving_conservation_of_momentum/rollingball.png)
+![Rolling Ball at constant velocity]({{site.url}}/media/deriving_conservation_of_momentum/rollingball.png){:class="img-responsive"}
 
 The Lagrangian for the ball's motion can then be written in terms of its classical kinetic energy and the potential energy:
 
@@ -159,7 +159,7 @@ Linear momentum was cute and simple, let's amp it up a notch. Let's try to see i
 
 The system is as follows: a particle at rest is subjected to a torque which causes it to orbit around a point in space with a velocity as follows:
 
-![Orbiting Ball at Constant Speed]({{site.url}}/media/deriving_conservation_of_momentum/circularmotion.png)
+![Orbiting Ball at Constant Speed]({{site.url}}/media/deriving_conservation_of_momentum/circularmotion.png){:class="img-responsive"}
 
 A circle is two-dimensional, so we can no longer operate in just the one-dimensional $$ x $$ coordinate for our physical quantities. We have to work in two dimensions.
 
