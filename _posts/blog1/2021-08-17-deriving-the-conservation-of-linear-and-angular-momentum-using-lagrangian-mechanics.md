@@ -4,7 +4,7 @@ title: Deriving the Conservation of Linear and Angular Momentum Using Lagrangian
 date: 2021-08-17 18:30 +0530
 last_modified_at: 2022-04-21 03:08:25 +0530
 tags: [calculus-of-variations, lagrangian-mechanics, classical-mechanics, mechanics, analytical-mechanics, conservation-laws]
-toc:  true
+toc:  false
 publishing: blog1
 usemathjax: true
 ---
