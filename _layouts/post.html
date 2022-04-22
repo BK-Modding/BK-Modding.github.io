@@ -4,11 +4,11 @@ layout: default
 
 <article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
+
   <div class="post-meta">
     {%- assign date_format = site.date_format | default: "%-d %b %Y" -%}
     Published on: <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time>
     {%- if page.last_modified_at -%}
-      <!-- <span> ~ </span> -->
       <br>
       {%- assign mdate = page.last_modified_at | date_to_xmlschema -%}
       Last modified on: <time datetime="{{ mdate }}" itemprop="dateModified">
@@ -16,7 +16,8 @@ layout: default
       </time>
     {%- endif -%}
     {%- if page.author -%}
-      <span> • </span>
+      <br>
+      Authors: 
       {% for author in page.author %}
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           {{ author }}
