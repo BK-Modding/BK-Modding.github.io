@@ -168,7 +168,7 @@ Most importantly, angular motion is described in terms of the angle of revolutio
 
 **The transformation will be the most mathematically intense part of this entire post, so I will not detail too much of what's happening and you can skip over it. We only really need the result in the end anyway.**
 
-**Update (22-04-2022):** There is a much more simpler way to do this transformation using the line element (infinitesimal arc length) in Polar coordinates This has been added to the post now.
+**Update (22-04-2022):** There is a much more simpler way to do this transformation using the line element (infinitesimal arc length) in Polar coordinates. This has been added to the post now.
 
 # Transforming the Lagrangian from Cartesian to Polar
 
@@ -198,7 +198,7 @@ $$
   ds = \sqrt{dr^2 + r^2 d\theta^2}
 $$
 
-The derivation for this warrants its own post, which will come in due time so watch this space.
+(The derivation for this warrants its own post, which will come in due time so watch this space.)
 
 Now taking the time derivative of the Polar line element, we arrive at the Polar coordinate velocity:
 
