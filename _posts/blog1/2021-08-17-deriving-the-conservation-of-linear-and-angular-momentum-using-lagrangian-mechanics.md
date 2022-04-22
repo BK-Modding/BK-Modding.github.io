@@ -15,19 +15,19 @@ Linear and angular momentum are always conserved, but can we use something like 
 |:--:| 
 | A spinning top, a very interesting object of study for physicists. Momentum conservation can be derived by analyzing its behavior. (Credit: [](https://wallpaperscraft.com/)) |
 
-## Post Details
+# Post Details
 
 - **Purpose**: notes, will be made into a full blog post later.
 - **Difficulty**: intermediate.
 - **Prerequisites**: Calculus and Analytical Geometry, some familiarity with the Lagrangian formulation of Classical Mechanics.
 
-## Introduction
+# Introduction
 
 Momentum is one of those special quantities in physics that is always conserved -- In a physical system, the total momentum over any period of time is always the same when there are no external forces acting on it. This is akin to the law of energy conservation, and these conservation laws represent an underlying symmetry of nature and are the bedrocks of all the physics we have today.
 
 In this post, I aim to derive the relation for conservation of linear and angular momentum by applying Lagrangian Mechanics to one-dimensional motion and circular motion.
 
-## The Lagrangian
+# The Lagrangian
 
 We start by introducing the Lagrangian $$L$$, a function that characterizes the state of a system. The Lagrangian is defined as the difference between the kinetic and potential energies of a system:
 
@@ -72,7 +72,7 @@ $$
 
 Where $$ q $$ is our usual generalized displacement.
 
-## Linear Momentum Conservation - A Rolling Ball
+# Linear Momentum Conservation - A Rolling Ball
 
 We begin by looking at a classic and simple physical system - a rolling ball. We shall restrict ourselves to just one dimension as the higher dimensional cases are a natural extension that can be arrived at by repeating the same calculations. We assume no air resistance and friction of any sort.
 
@@ -153,7 +153,7 @@ $$
 
 Voilà, conservation of linear momentum!
 
-## Angular Momentum Conservation - Circular Motion
+# Angular Momentum Conservation - Circular Motion
 
 Linear momentum was cute and simple, let's amp it up a notch. Let's try to see if we can derive conservation for angular momentum in the same way by applying the same techniques to a system undergoing circular motion.
 
@@ -167,7 +167,7 @@ Most importantly, angular motion is described in terms of the angle of revolutio
 
 **The transformation will be the most mathematically intense part of this entire post, so I will not detail too much of what's happening and you can skip over it. We only really need the result in the end anyway.**
 
-## Transforming the Lagrangian from Cartesian to Polar
+# Transforming the Lagrangian from Cartesian to Polar
 
 We begin by writing the Lagrangian in terms of the Cartesian coordinate velocities:
 
@@ -296,6 +296,8 @@ $$
 $$
 
 Voilà yet again, conservation of angular momentum!
+
+# Conclusion
 
 In summary, this is a classic derivation of one of the many important conservation laws of physics. This one states that when there are no forces and torques acting on a system, the total linear and angular momentum are conserved, and we have shown that.
 
