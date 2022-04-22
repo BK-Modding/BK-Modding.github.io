@@ -168,8 +168,51 @@ Most importantly, angular motion is described in terms of the angle of revolutio
 
 **The transformation will be the most mathematically intense part of this entire post, so I will not detail too much of what's happening and you can skip over it. We only really need the result in the end anyway.**
 
+**Update (22-04-2022):** There is a much more simpler way to do this transformation using the line element (infinitesimal arc length) in Polar coordinates This has been added to the post now.
+
 # Transforming the Lagrangian from Cartesian to Polar
 
+## Using Arc Length (Added on 22-04-2022)
+
+Consider the line element $$ ds $$ in Cartesian coordinates, which we obtain from the familiar distance formula:
+
+$$
+  ds = \sqrt{dx^2 + dy^2}
+$$
+
+The time derivative of this line element is the instantaneous coordinate velocity:
+
+$$
+  v = \frac{ds}{dt} = \sqrt{\dot{x}^2 + \dot{y}^2}
+$$
+
+Plugging this into the Lagrangian for the velocity, we obtain the familiar expression:
+
+$$
+  L = \frac{1}{2}m(\dot{x}^2 + \dot{y}^2) - V
+$$
+
+What we need is the coordinate velocity in Polar coordinates, so we consider the line element $$ ds $$ in Polar coordinates:
+
+$$
+  ds = \sqrt{dr^2 + r^2 d\theta^2}
+$$
+
+The derivation for this warrants its own post, which will come in due time so watch this space.
+
+Now taking the time derivative of the Polar line element, we arrive at the Polar coordinate velocity:
+
+$$
+  v = \sqrt{\dot{r}^2 + r^2\dot{\theta}^2}
+$$
+
+Plugging this into the Lagrangian similar to what we did before, we arrive at the transformed Polar form of the Lagrangian:
+
+$$
+  L = \frac{1}{2}m(\dot{r}^2 + r^2\dot{\theta}^2) - V
+$$
+
+## Using The Transformation Equations (Old)
 We begin by writing the Lagrangian in terms of the Cartesian coordinate velocities:
 
 $$
@@ -190,7 +233,7 @@ Taking time derivatives on both sides,
 $$
   \begin{align*}
     \dot{x} &= \dot{r} \cos \theta - r \dot{\theta} \sin \theta \\
-    \dot{y} &= \dot{R} \sin \theta + r \dot{theta} \cos \theta
+    \dot{y} &= \dot{r} \sin \theta + r \dot{theta} \cos \theta
   \end{align*}
 $$
 
@@ -313,7 +356,3 @@ Thank you for reading! You can also find me at other places like Quora, Medium, 
 [Medium Physics Scribbles](https://medium.com/physics-scribbles)
 
 [Github](https://github.com/BK-Modding)
-
-
-
-
