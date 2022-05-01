@@ -70,7 +70,7 @@ $$
     \end{align*}
 $$
 
-Thus, the Symmetric and Skew - Symmetric parts can be obtained from the matrix A itself so $$ \forall A $$, we can construct a Symmetric and Skew - Symmetric part s.t.,
+Thus, the Symmetric and Skew-Symmetric parts can be obtained from the matrix A itself so $$ \forall A $$, we can construct a Symmetric and Skew-Symmetric part s.t.,
 
 $$
     A = \frac{1}{2}(A + A^T) + \frac{1}{2}(A - A^T)
@@ -80,7 +80,7 @@ Observe that,
 
 $$
     \begin{align*}
-        (\frac{A + A^T}{2})^T &= \frac{A^T + A}{2} \\
+        \left( \frac{A + A^T}{2} \right)^T &= \frac{A^T + A}{2} \\
         &= \frac{A + A^T}{2}
     \end{align*}
 $$
@@ -91,12 +91,12 @@ Similarly,
 
 $$
     \begin{align*}
-        (\frac{A - A^T}{2})^T &= \frac{A^T - A}{2} \\
+        \left( \frac{A - A^T}{2} \right)^T &= \frac{A^T - A}{2} \\
         &= -\frac{A - A^T}{2}
     \end{align*}
 $$
 
-Which is Skew - Symmetric as expected.
+Which is Skew-Symmetric as expected.
 
 # Definitions
 
