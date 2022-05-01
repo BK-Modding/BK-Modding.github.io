@@ -28,7 +28,7 @@ This is a repository of important and non-trivial proofs and derivations of idea
 
 Let $$ A $$ be an $$ (m \times m) $$ matrix.
 
-Claim:
+Our claim is,
 
 $$ A = S + \bar{S} \tag{1} $$
 
@@ -41,12 +41,12 @@ $$
     \end{align*}
 $$
 
-Taking Transpose of both sides,
+Taking Transpose of both sides of $$ (1) $$
 
 $$
     \begin{align*}
         A^T &= S^T + \bar{S}^T \\
-        A^T &= S - \bar{S} \tag{2}
+        \implies A^T &= S - \bar{S} \tag{2}
     \end{align*}
 $$
 
