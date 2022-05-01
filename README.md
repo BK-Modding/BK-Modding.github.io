@@ -2,4 +2,4 @@
 
 Repository for my Personal Website and Blogs. 
 
-Physics Scribbles, Syntax Error, and Eigen World are hosted here.
+Physics Scribbles, Syntax Error, and Null Space are hosted here.

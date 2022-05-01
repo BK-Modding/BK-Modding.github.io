@@ -3,17 +3,16 @@ layout: post
 title: A Crash Course into Calculus of Variations and Lagrangian Dynamics
 date: 2022-04-18 23:18 +0800
 last_modified_at: 2022-04-18 01:08:25 +0800
+author: Baalateja Kataru
 tags: [calculus-of-variations, lagrangian-dynamics, classical-mechanics, mechanics, analytical-mechanics]
 toc:  true
 publishing: blog1
 usemathjax: true
 ---
 
-There is a unique propery of the universe that we don't observe 
+The shortest distance between any two points in space is a line. But how do we know this?
 
 Consider $$ L(q, \dot{q}) $$
-
-
 
 The differential of the Lagrangian is,
 
