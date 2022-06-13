@@ -10,19 +10,46 @@ publishing: blog3
 usemathjax: true
 ---
 
+This is a repository of important/non-trivial proofs and derivations of ideas in Linear Algebra. This is a constantly evolving space as I'm continuously updating it.
+
 # Post Details
 
 - **Purpose**: notes and scribblings only
 - **Difficulty**: mixed.
 - **Prerequisites**: N/A
 
-# Introduction
+# Definitions
 
-This is a repository of important and non-trivial proofs and derivations of ideas in Linear Algebra. This is a constantly evolving space as I'm continuously updating it.
+# Transpose
+
+Include this: The definition of transpose is the operation of interchanging the rows and columns of a matrix. In other words, all the rows become the columns and all the columns become the rows. Thus, if the index $$ i $$ specified the $$i$$-th row and the index $$ j $$ specified the $$ j $$-th column, then after transpose, $$ i $$ specifies 
+
+## Outer Product
+
+
+
+## Matrix Multiplication
+
+If $$ A $$ and $$ B $$ are
 
 # Proofs
 
 ## Associativity for Matrix Multiplication
+
+## Transpose of Matrix Product
+
+Let $$ A $$ be an $$ (m \times n) $$ matrix.
+Let $$ B $$ be an $$ (n \times p) $$ matrix.
+
+We need to show that,
+
+$$ (AB)^T = B^T A^T $$
+
+We know the elements of $$ AB $$ are,
+
+$$ (ab)_{ij} = \sum_{k = 1}^{n} a_{ik} b_{kj} $$
+
+The definition of transpose is the operation of interchanging the rows and columns of a matrix. In other words, all the rows become the columns and all the columns become the rows. Thus, if the index $$ i $$ specified the $$i$$-th row and the index $$ j $$ specified the $$ j $$-th column, then after transpose, $$ i $$ specifies 
 
 ## Any Square Matrix can be written as the sum of a Symmetric and Skew-Symmetric Matrix
 
@@ -46,7 +73,7 @@ Taking Transpose of both sides of $$ (1) $$
 $$
     \begin{align*}
         A^T &= S^T + \bar{S}^T \\
-        \implies A^T &= S - \bar{S} \tag{2}
+        A^T &= S - \bar{S} \tag{2}
     \end{align*}
 $$
 
@@ -70,7 +97,7 @@ $$
     \end{align*}
 $$
 
-Thus, the Symmetric and Skew-Symmetric parts can be obtained from the matrix A itself so $$ \forall A $$, we can construct a Symmetric and Skew-Symmetric part s.t.,
+Thus, the Symmetric and Skew-Symmetric parts can be obtained from the matrix A itself so $$ \forall \, A $$, we can construct a Symmetric and Skew-Symmetric part s.t.,
 
 $$
     A = \frac{1}{2}(A + A^T) + \frac{1}{2}(A - A^T)
@@ -97,16 +124,6 @@ $$
 $$
 
 Which is Skew-Symmetric as expected.
-
-# Definitions
-
-## Outer Product
-
-
-
-## Matrix Multiplication
-
-If $$ A $$ and $$ B $$ are
 
 
 

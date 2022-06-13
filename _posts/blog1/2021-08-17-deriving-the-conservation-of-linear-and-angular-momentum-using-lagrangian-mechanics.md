@@ -18,8 +18,8 @@ Linear and angular momentum are always conserved, but can we use something like 
 
 # Post Details
 
-- **Purpose**: notes, will be made into a full blog post later.
-- **Difficulty**: intermediate.
+- **Purpose**: Notes, will be made into a full blog post later.
+- **Difficulty**: Intermediate.
 - **Prerequisites**: Calculus and Analytical Geometry, some familiarity with the Lagrangian formulation of Classical Mechanics.
 
 # Introduction
